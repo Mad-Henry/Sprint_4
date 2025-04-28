@@ -3,7 +3,7 @@ from data import wrong_names_lst
 import pytest
 
 
-class TestBooksempty_collector:
+class TestBooksCollecto:
 
 
     def test_add_new_book_add_one_book(self, empty_collector):
