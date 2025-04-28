@@ -35,6 +35,13 @@ class TestBooksempty_collector:
         assert empty_collector.get_book_genre(books_lst[1]) == 'Ужасы', f'Словарь содержит: {empty_collector.get_books_genre()}'
 
 
+    def test_get_books_genre_show_dict_w_one_book(self, empty_collector):
+        empty_collector.add_new_book(books_lst[1])
+        empty_collector.set_book_genre(books_lst[1], 'Ужасы')
+        asert_dict = {books_lst[1]: 'Ужасы'}
+        assert empty_collector.get_books_genre() == asert_dict, f'Словарь содержит: {empty_collector.get_books_genre()}'
+
+
     def test_get_books_for_children_show_buratino(self, empty_collector):
         empty_collector.add_new_book(books_lst[1])
         empty_collector.set_book_genre(books_lst[1], 'Ужасы')

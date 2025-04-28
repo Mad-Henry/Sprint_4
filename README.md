@@ -13,8 +13,9 @@
 
     Метод get_book_genre, положительный test_get_book_genre_show_genre_list
 
-    Метод get_books_for_children, положительный test_get_books_for_children_show_buratino
+    Метод get_books_genre, положительный test_get_books_genre_show_dict_w_one_book
 
+    Метод get_books_for_children, положительный test_get_books_for_children_show_buratino
 
     Метод add_book_in_favorites, положительный test_add_book_in_favorites_add_to_favorite
     Метод add_book_in_favorites, отрицательный test_add_book_in_favorites_double_add_or_empty_collecttion:
